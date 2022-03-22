@@ -1,0 +1,66 @@
+body {
+    background-color: black;
+    color: #ffffff;
+    text-align: center;
+}
+
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    padding: 30px;
+
+}
+
+.row .card {
+    margin-left: 30px;
+    color: black;
+    text-align: center;
+    width: 120px;
+    height: 320px;
+    justify-content: space-between;
+}
+
+.card a {
+    margin-bottom: 30px;
+}
+
+.card-title {
+    text-align: center;
+    padding: 20px;
+}
+
+footer {
+    padding-bottom: 20px;
+}
+
+.description {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    opacity: 0.3;
+}
+
+.sing-in-panel {
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+
+.add-object-panel {
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
